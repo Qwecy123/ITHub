@@ -216,3 +216,20 @@ footer {
 #back-to-top:hover {
     background-color:#ff0f0f ;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials-container, .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial, .contact-form, .contact-info {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
